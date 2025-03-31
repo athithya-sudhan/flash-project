@@ -1,3 +1,8 @@
-
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9tY2hlYXdqZXV1bnhzc3hicmppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDMzNDUwNzcsImV4cCI6MjA1ODkyMTA3N30.or45UH7Njqqip-EzKz5vPs2y4hoQ6ynri-0A6xXnqlw
-VITE_SUPABASE_URL=https://omcheawjeuunxssxbrji.supabase.co
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
